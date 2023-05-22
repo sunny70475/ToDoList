@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+
+header {
+  background-color: #00fff7;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #000000;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+.note{
+    background:#fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 5px #76cfd2;
+    padding: 10px;
+    width: 250px;
+    margin-left: 800px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.note h1{
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.note p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.note button{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+    color: #7e0246;
+    border: none;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    outline: none;
+}
+.errormsg{
+    color: red;
+}
+form{
+    position: relative;
+    width: 1000px;
+    margin: 50px auto 60px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #76cfd2;
+
+}
+
+form input,form textarea{
+    width: 100%;
+    border: none;
+    padding:5px;
+    outline: none;
+    font-size: 1.5em;
+    font-family: inherit;
+    resize: none;
+}
+
+form button{
+    position: absolute;
+    right: 20px;
+    bottom: 1px;
+    background:#37306B;
+    border: none;
+    color: #fff;
+    border-radius: 20%;
+    width: 80px;
+    height: 40px; 
+    box-shadow: 0px 5px 5px #76cfd2;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 10px;
+}
+
